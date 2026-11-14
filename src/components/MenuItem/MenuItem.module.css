@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-family: system-ui, -apple-system, sans-serif;
+}
+.card{
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+border: 1px solid #d5d5d5;
+display: flex;
+justify-content: space-between;
+align-items: center;
+gap: 10px;
+transition: 0.2s;}
+
+.category{
+    color: #3b966f;
+    font-size: 12px;
+    text-transform: capitalize;
+}
+.card h3{
+    font-size: 16px;
+    margin: 8px 0;
+    color: #252f29;
+}
+.card p{
+    font-weight: bold;
+    color: #5a5757;
+}
+.card button{
+    display: flex;
+    align-content: center;
+    gap: 5px;
+    background: rgb(63, 141, 63);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 12px;
+    cursor: pointer;
+}
+.card button:hover{
+    background: rgb(9, 60, 9);
+}

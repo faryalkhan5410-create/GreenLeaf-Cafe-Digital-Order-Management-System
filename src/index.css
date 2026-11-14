@@ -2,10 +2,26 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  color: #fff;
 }
 
 html, body {
   height: 100%;
   width: 100%;
   font-family: system-ui, -apple-system, sans-serif;
+  background-color: #111;
+}
+.parent{
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.card{
+  width: 200px;
+ border: 2px solid white;
+ padding: 20px;
+text-align: center;
+border-radius: 10px;
+background-color: rgb(184, 146, 146);
+
 }
