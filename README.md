@@ -68,12 +68,12 @@ Deploy to Vercel
 2. Sign in to Vercel and choose Add New → Project.
 3. Import the GreenLeaf Cafe GitHub repository.
 4. Confirm these project settings: 
-<li>
-     a. Framework Preset: Vite 
-     b. Build Command: npm run build
-     c. Output Directory: dist
-     d. Install Command: npm install
-     </li>
+<ul>
+    <li> Framework Preset: Vite </li> 
+    <li>  Build Command: npm run build
+    <li>  Output Directory: dist</li>
+    <li>  Install Command: npm install </li>
+    </ul>
 5. Select Deploy.
 6. When deployment completes, open the Vercel-provided URL and test the application.
 
