@@ -1,16 +1,41 @@
-# React + Vite
+GreenLeaf Cafe : Digital Order Management
+Lightweight and responsive react application that helps Greenleaf staff to build and and review customer order from menu
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+Features:
+1. Displays menu Items with their category, name and price
+2. Adds menu to the current order
+3. Groups repeated selected icons in one order line
+4. Removes one item at a time and removes the item completely when its quantity reches to zero
+5. Calculates the total amount of order
+6. Responsive 2 column layout
 
-Currently, two official plugins are available:
+Technology
+1. React
+2. Vite Buildup
+3. Javascript
+4. CSS modules
+5. Lucide React icons
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Requirements
+1. Nod.js 
+2. npm
+3. Git for (cloning and deployment)
 
-## React Compiler
+Run Locally
+1. Clone the GitHub repository:git clone <YOUR_GITHUB_REPOSITORY_URL>
+2. Move into the project folder:cd GreenLeaf-Cafe-FinalUse the actual folder name created by your clone if it differs.
+3. Install dependencies:npm install
+4. Start the development server:npm run dev
+5. Open the local URL printed in the terminal (usually http://localhost:5173).
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the Oxlint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+Deploy to Vercel
+1. Push the project to a GitHub repository.
+2. Sign in to Vercel and choose Add New → Project.
+3. Import the GreenLeaf Cafe GitHub repository.
+4. Confirm these project settings:
+     a. Framework Preset: Vite
+     b. Build Command: npm run build
+     c. Output Directory: dist
+     d. Install Command: npm install
+5. Select Deploy.
+6. When deployment completes, open the Vercel-provided URL and test the application.

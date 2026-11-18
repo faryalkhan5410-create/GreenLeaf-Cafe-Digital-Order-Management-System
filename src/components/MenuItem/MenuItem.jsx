@@ -1,22 +1,25 @@
-import React from 'react'
-import {Plus} from "lucide-react";
-import styles from "./MenuItem.module.css"
-const MenuItem = ({item, onAdd}) => {
+
+import { Plus } from "lucide-react";
+import styles from "./MenuItem.module.css";
+
+function MenuItem({ item, onAdd }) {
   return (
-    <div className='styles.card'>
+    <div className={styles.card}>
       <div>
-        <span className={styles.card}>
-{item.category || item.categories}
+        <span className={styles.category}>
+          {item.category}
         </span>
+
         <h3>{item.name}</h3>
         <p>Rs. {item.price}</p>
       </div>
 
-      <button onClick={()=> onAdd(item)}>
-        <Plus size={17}/>
+      <button onClick={() => onAdd(item)}>
+        <Plus size={17} />
+        Add to Order
       </button>
     </div>
   );
 }
 
-export default MenuItem
+export default MenuItem;

@@ -69,5 +69,5 @@ category: "Desserts",
 name: "Velvet Cake",
 price: 1200,
  },
-]
+];
   export default menuItems;  
