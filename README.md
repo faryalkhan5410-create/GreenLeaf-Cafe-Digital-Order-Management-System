@@ -22,11 +22,45 @@ Requirements
 3. Git for (cloning and deployment)
 
 Run Locally
-1. Clone the GitHub repository:git clone <YOUR_GITHUB_REPOSITORY_URL>
-2. Move into the project folder:cd GreenLeaf-Cafe-FinalUse the actual folder name created by your clone if it differs.
+1. Clone the GitHub repository:git clone <https://github.com/faryalkhan5410-create/GreenLeaf-Cafe-Digital-Order-Management-System>
+2. Move into the project folder:cd GreenLeaf-Cafe-Final
+Use the actual folder name created by your clone if it differs.
 3. Install dependencies:npm install
 4. Start the development server:npm run dev
 5. Open the local URL printed in the terminal (usually http://localhost:5173).
+
+Project Structure
+src/
+|_____components/
+|     |──── MenuItem/
+|     |       |___MenuItem.jsx        
+|     |       |___MenuItem.module.css
+|     |____MenuList/
+|              |___MenuList.jsx        
+|              |___ MenuList.module.css
+|
+|___data/
+|   |___data.js
+|___ App.jsx
+|___App.css
+|___index.css
+|___main.jsx
+public/
+
+
+Update Menu
+Edit src/data/data.js. Each menu entry shoild have a unique numeric id, a categoty,name and numeric price.
+like:
+{
+     id: "11",
+     category: "Coffee",
+     name: "Flat White",
+     price: 1100
+}
+after changing the menu run npm run build abd redeploy thr updated project
+
+Live Website
+The application is deployed on Vercel and can be opened here: https://green-leaf-cafe-digital-order-manag.vercel.app.
 
 Deploy to Vercel
 1. Push the project to a GitHub repository.
@@ -39,3 +73,7 @@ Deploy to Vercel
      d. Install Command: npm install
 5. Select Deploy.
 6. When deployment completes, open the Vercel-provided URL and test the application.
+
+
+Project: GreenLeaf Cafe Digital Order Management Status: Deployed on Vercel.
+Live URL: https://green-leaf-cafe-digital-order-manag.vercel.app

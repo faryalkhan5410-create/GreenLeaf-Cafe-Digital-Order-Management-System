@@ -1,0 +1,65 @@
+GREENLEAF CAFE
+DIGITAL ORDER MANAGEMENT — STAFF HANDOVER
+
+1. PURPOSE
+----------
+This website helps cafe staff select items from the GreenLeaf Cafe menu,
+build a customer's order, and see the calculated total.
+
+2. OPENING THE SYSTEM
+---------------------
+1. Open the public GreenLeaf Cafe website link in a modern web browser.
+2. The menu appears under "Our Menu".
+3. The "Current Order" panel appears beside the menu on a larger screen,
+   or below it on a smaller screen.
+
+Public website URL:
+https://green-leaf-cafe-digital-order-manag.vercel.app
+
+3. TAKING AN ORDER
+------------------
+1. Find the item the customer wants in the menu.
+2. Check its name and displayed price.
+3. Click "Add to Order".
+4. The item appears in the Current Order panel.
+5. If the customer wants another of the same item, click "Add to Order"
+   again. The quantity increases on the existing order line.
+6. Repeat for every item the customer requests.
+7. Check the quantities and the Total Price before confirming the amount
+   with the customer.
+
+4. CORRECTING AN ORDER
+----------------------
+1. Find the item in the Current Order panel.
+2. Click "Remove" to reduce that item's quantity by one.
+3. Click "Remove" again if another unit needs to be removed.
+4. When the quantity reaches zero, the item is removed from the order.
+5. The total price recalculates automatically.
+
+IMPORTANT: The Remove button removes one unit per click. It does not
+immediately delete all quantities of an item.
+
+5. IMPORTANT OPERATING NOTES
+----------------------------
+- The menu and prices are sample project data and should be checked by
+  cafe management before real customer use.
+- The current version does not save orders to a database.
+- Orders are temporary and will be lost if the page is refreshed, closed,
+  or the browser session is otherwise reset.
+- The website does not send orders to the kitchen or a cashier system.
+- The website does not accept or record payments.
+- It does not track stock or user accounts.
+- Staff should follow the cafe's normal process for recording, confirming,
+  preparing, and charging for orders.
+- Do not treat an order displayed on this website as a saved or paid sale.
+
+
+6. MENU AND PRICE UPDATES
+-------------------------
+Menu data is maintained in the project's src/data/data.js file.
+A developer or authorized maintainer should:
+- Add or edit the menu item's category, name, and numeric price.
+- Give every menu item a unique ID.
+- Build and redeploy the website after making changes.
+
+Staff should not edit project files directly unless authorized.
